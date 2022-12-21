@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: rgb(47, 49, 55);
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 2%;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(18, 18, 18);
+    font-size: 1.3rem;
+    margin: 1%;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border-radius: 16px;
+    color: white;
+    gap: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65%;
+    /* height: 50%; */
+    /* margin-top: 50%; */
+    gap: 30px;
+    /* justify-content: space-around; */
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar h1 {
+    font-size: 1.7rem;
+}
+
+.logo {
+    width: 100%;
+}
+
+#logout, #login,#about,#contactus, #signup, #dashboard
+{
+    color: rgb(164, 179, 179);
+}
+
+#logout:hover, #login:hover,#about:hover,#contactus:hover, #signup:hover, #dashboard:hover
+{
+    color: #fff;
+}
+
+
+/* right section */
+.container {
+    width: 72%;
+    height: 95%;
+    margin-inline: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+    /* upper head */
+
+    .upper-head{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20%;
+        font-size: 2rem;
+    }
+
+    .effortless {
+        font-size: 1.5rem;
+    }
+
+    .invoicer-brand {
+        color: #F40009;
+    }
+
+    .steps {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .letter
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 16px;
+        font-size: 1.7rem;
+        padding: 15%;
+        margin-bottom: 10%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .letter-a {
+        background-color: #9b51e0;
+        color: black;
+    }
+    .letter-b {
+        background-color: #0095ff;
+        color: black;
+    }
+    .letter-c {
+        background-color: #32c7c8;
+        color: black;
+    }
+    .letter-d {
+        background-color: #2fcf8f;
+        color: black;
+    }
+
+    .letter-a:hover {
+        background-color: #c090ed;
+        cursor: pointer;
+    }
+    
+    .letter-b:hover {
+        background-color: #40aefc;
+        cursor: pointer;
+    }
+    
+    .letter-c:hover {
+        background-color: #66caca;
+        cursor: pointer;
+    }
+    
+    .letter-d:hover {
+        background-color: #5bcea0;
+        cursor: pointer;
+    }
+    
+    .subtitle {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    /* REDIRECT SECTION */
+
+    .redirect-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 20%;
+        width: 40%;
+    }
+
+    .signup-btn, .login-btn {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        padding: 3%;
+        border-radius: 16px;
+        background-color: #0095ff;
+    }
+
+    .already {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2%;
+        margin-top: 8%;
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+
+

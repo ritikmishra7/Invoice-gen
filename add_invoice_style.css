@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+* {
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1rem;
+}
+
+body {
+	background-color: rgb(255, 255, 255);
+}
+
+.container {
+	width: 90%;
+	margin-inline: auto;
+	margin-block: 1%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	padding: 1%;
+}
+/* input {
+	background-color: rgb(34, 34, 34);
+} */
+.invoice-h1 {
+	padding: 1%;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 800;
+	color: #fff;
+	background-color: rgb(158, 158, 158);
+	border: none;
+}
+
+.header-info {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2%;
+	margin-bottom:1%;
+}
+
+.add-form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+/* From and To section */
+.left-info,
+.right-info {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.left-info table,
+.right-info table {
+	border-collapse: separate;
+	border-spacing: 0 15px;
+	
+}
+
+.left-info table tr td, .right-info table tr td, .add-box table tr td{
+	padding: 0 15px 0 0;
+}
+
+.left-info p , .right-info p {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+/* Additional Box */
+.add-box table {
+border-collapse: separate;
+border-spacing: 0 15px;
+margin-top: 10px;
+}
+
+
+/* Items */
+
+.items {
+	display: flex;
+	flex-direction: column;
+	/* gap: 30px; */
+	width: 100%;
+}
+.items table {
+border-collapse: collapse;
+width: 100%;
+text-align:center;
+}
+
+td input {
+	width: 90%;
+	display: flex;
+	padding: 2%;
+}
+
+.removerow {
+	font-size: 1.3rem;
+	width: 80%;
+	border: none;
+	margin-right: 40px;
+	cursor: pointer;
+	color: white;
+	background-color: rgb(220,53,69);
+}
+
+.removerow:hover{
+	transform: scale(1.05);
+}
+
+.addrow {
+	font-size: 1.5rem;
+	border: none;
+	color: white;
+	background-color: rgb(33,37,41);
+	width: 2%;
+	padding: 0.7%;
+	cursor: pointer;
+	margin-top: 2%;
+}
+.addrow:hover{
+	transform: scale(1.05);
+}
+
+.total {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: flex-end;
+}
+
+.total table {
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	width: 35%;
+	margin-right: 30px;
+}
+
+.subtotal {
+	width: 80%;
+}
+.items-table tr {
+	margin-bottom: 30px;
+	/* text-align: center; */
+}
+
+.items table {
+	border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.items table tr td input {
+	text-align: center;
+}
+
+.final-buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 2%;
+	margin-block: 2%;
+}
+
+.cancel-btn {
+	width: 7%;
+	padding: 1%;
+	background-color: rgb(220,53,69);
+	color: #fff;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.cancel-btn:hover {
+	transform: scale(1.05);
+}
+
+.insert-btn {
+	width: 14%;
+	padding: 1%;
+	background-color: rgb(33,37,41);
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: 500;
+	border-radius: 10px;
+}
+
+.insert-btn:hover {
+	transform: scale(1.05);
+}
+
+#subtotal, #taxtotal, #discount, #total {
+	width: min-content;
+}
+
+
+/* ::placeholder {
+	color: #fff;
+} */
